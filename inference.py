@@ -22,7 +22,7 @@ SAVE_DIR = './output/'
 SNAPSHOT_DIR = './model/'
 
 
-input_dir =r"C:/Users/Administrator/Desktop/PSPNet-tensorflow-master/PSPNet-tensorflow-master/input/row1col1.png"
+input_dir =r""
 
 def get_arguments():
     parser = argparse.ArgumentParser(description="Reproduced PSPNet")

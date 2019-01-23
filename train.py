@@ -25,8 +25,8 @@ from image_reader import ImageReader
 IMG_MEAN = np.array((103.939, 116.779, 123.68), dtype=np.float32)
 
 BATCH_SIZE = 2
-DATA_DIRECTORY = r'D:/绿潮数据集/'
-DATA_LIST_PATH = r'G:/绿潮数据集/绿潮数据集2/80x80/cityscapes_train_list.txt'
+DATA_DIRECTORY = 
+DATA_LIST_PATH = 
 
 
  
@@ -49,7 +49,7 @@ SAVE_PRED_EVERY = 50
 
 FLAGS = tf.flags.FLAGS
 tf.flags.DEFINE_string("data_dir", "Data_zoo\\MIT_SceneParsing\\", "path to dataset")
-tf.flags.DEFINE_string("image_dir", "F:\\深度学习项目\\zzq\\养殖GPU-new\\养殖new\Data_zoo\\MIT_SceneParsing\\ADEChallengeData2016", "path to dataset")
+tf.flags.DEFINE_string("image_dir", "")
 
 def get_arguments():
     parser = argparse.ArgumentParser(description="DeepLab-ResNet Network")

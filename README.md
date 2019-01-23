@@ -3,18 +3,18 @@
   This is an implementation of PSPNet in TensorFlow for semantic segmentation on the [cityscapes](https://www.cityscapes-dataset.com/) dataset. We first convert weight from [Original Code](https://github.com/hszhao/PSPNet) by using [caffe-tensorflow](https://github.com/ethereon/caffe-tensorflow) framework.
 
 ## Update:
-## News (2018.11.08 updated):
+## News (2019.01.23 updated):
   Now you can try PSPNet on your own image online using [ModelDepot live demo](https://modeldepot.io/hellochick/pspnet)!
   
-#### 2018/01/24:
+#### 2019.01.234:
 1. `Support evaluation code for ade20k dataset`
 
-#### 2018/01/19:
+#### 2019.01.23:
 1. `Support inference phase for ade20k dataset` using model of pspnet50 (convert weights from original author)
 2. Using `tf.matmul` to decode label, so as to improve the speed of inference.
-#### 2017/11/06:
+#### 2019.01.23:
 `Support different input size` by padding input image to (720, 720) if original size is smaller than it, and get result by cropping image in the end.
-#### 2017/10/27: 
+#### 2019.01.23: 
 Change bn layer from `tf.nn.batch_normalization` into `tf.layers.batch_normalization` in order to support training phase. Also update initial model in Google Drive.
 
 ## Install 
